@@ -1,0 +1,161 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  --lr-padding: 1rem 8rem;
+}
+
+.body {
+  background-color: #1f2937;
+  color: #f9faf8;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  height: 2.5rem;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 1rem;
+}
+
+.logo {
+  font-size: 24px;
+  letter-spacing: 0.2rem;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+
+.list-items {
+}
+
+.nav-links {
+  text-decoration: none;
+  font-size: 18px;
+  color: #ede7eb;
+}
+
+.container {
+  flex: 1;
+  /* padding: 1rem; */
+  display: flex;
+  flex-direction: column;
+}
+
+.sections.one {
+  font-size: ;
+}
+.sections.two {
+  font-size: ;
+  background-color: white;
+  color: #1f2937;
+  padding: 1rem;
+}
+.sections.three {
+  background-color: #e5e7eb;
+  color: #1f2937;
+  font-size: 0.9rem;
+  font-style: italic;
+  padding: 3rem;
+}
+.sections.four {
+  background-color: white;
+}
+
+.hero-text .hero-para {
+  font-size: 18px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 2.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .body {
+    background-color: #1f2937;
+    color: #f9faf8;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav {
+    display: flex;
+    align-items: center;
+    height: 2.5rem;
+    justify-content: space-between;
+    width: 100%;
+    margin-inline: auto;
+    padding: 0.5rem 8rem;
+  }
+
+  .logo {
+    font-size: 24px;
+    letter-spacing: 0.2rem;
+  }
+
+  .nav-list {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+  }
+
+  .list-items {
+  }
+
+  .nav-links {
+    text-decoration: none;
+    font-size: 18px;
+    color: #ede7eb;
+  }
+
+  .container {
+    flex: 1;
+    /* padding: 0 8rem; */
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sections.one {
+    font-size: ;
+    padding: var(--lr-padding);
+  }
+  .sections.two {
+    font-size: ;
+    padding: var(--lr-padding);
+  }
+  .sections.three {
+    font-size: ;
+    padding: var(--lr-padding);
+  }
+  .sections.four {
+    font-size: ;
+    padding: var(--lr-padding);
+  }
+
+  .hero-text .hero-para {
+    font-size: 18px;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 2.5rem;
+  }
+}
